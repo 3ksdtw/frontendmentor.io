@@ -1,0 +1,98 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* Neutral */
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+body{
+    min-height: 100%;
+    width: 100%;
+    font-size: 15px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Very-dark-blue-main-BG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    width: 20vw;
+    height: 65vh;
+    background-color: var(--Very-dark-blue-card-BG);
+    border-radius: 1rem;
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    max-width: 100%; /* or any custom size */
+    border-radius: 0.7rem;
+}
+
+h1 {
+    margin-top: 1rem ;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.para {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    color: var(--Soft-blue);
+}
+
+.info {
+    display: flex;
+    padding-bottom: 1rem;
+    border-bottom: thin solid var(--Soft-blue);
+    margin-bottom: 1rem;
+}
+
+.info .eth{
+    font-weight: 400;
+    color: var(--Cyan);
+    display: flex;
+    align-items: flex-start;
+}
+.info .eth .des_eth {
+    margin-left: 0.5rem;
+}
+
+.info .clock{
+    margin-left: auto;
+    color: var(--Soft-blue);
+    display: flex;
+    align-items: flex-end;
+}
+.info .clock .des_clock {
+    margin-left: 0.3rem;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    color :hsl(215, 51%, 70%);
+}
+.avatar p{
+    color : white;
+    font-weight: 400;
+    margin-left: 0.2rem;
+}
+.avatar img{
+    border: 1px solid white;
+    border-radius: 70%;
+    width: 2.5vw;
+    margin-right: 1rem;
+}
