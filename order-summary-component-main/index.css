@@ -9,6 +9,12 @@
 }
 
 html {
+    /*  #Weights : 500, 700, 900
+        #Layout 
+            - Mobile: 375px
+            - Desktop: 1440px 
+    */
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
 }
+

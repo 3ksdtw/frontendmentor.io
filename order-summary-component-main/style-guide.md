@@ -21,12 +21,12 @@ The designs were created to the following widths:
 - Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
-
+ay](https://fonts.google.com/specimen/Red+Hat+Display)
 ### Body Copy
 
 - Font size (paragraph): 16px
 
 ### Font
 
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Family: [Red Hat Displ
 - Weights: 500, 700, 900
